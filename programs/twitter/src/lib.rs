@@ -1,3 +1,5 @@
+#![allow(unexpected_cfgs)]
+
 // The task is to add code wherever you find TODO or todo!().
 // Once you complete all TODOs, make sure to deleted all `todo!()` macros.
 // Try running the tests using `anchor test` command and start debugging ;-)
@@ -15,7 +17,7 @@ pub mod errors;
 pub mod instructions;
 pub mod states;
 
-declare_id!("F6NKeaoPbchYnbcJZ5YSAqfMcHuP7GLExTuDK3qmgtgW");
+declare_id!("Je3bmRaREtmhnbE6PJ3KP5aZZm15aeUwqQHSyXGwRPd");
 
 #[program]
 pub mod twitter {

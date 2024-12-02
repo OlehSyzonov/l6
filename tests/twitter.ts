@@ -243,6 +243,26 @@ describe("twitter", () => {
         program, tweet_pkey, bob.publicKey, topic_bob4, content_bob4, 0, 1, tweet_bump
       )
     });
+    // Alice cannot remove a reaction that doesn't exist!
+      it("Alice cannot remove a reaction that doesn't exist!", async () => {
+        const [tweet_pkey, tweet_bump] = getTweetAddress(topic_bob1, bob.publicKey, program.programId);
+        const [reaction_pkey, reaction_bump] = getReactionAddress(alice.publicKey, tweet_pkey, program.programId);
+    
+        let should_fail = "This should fail";
+        try {
+          await program.methods.reactionRemove().accounts(
+            {
+              reactionAuthor: alice.publicKey,
+              tweetReaction: reaction_pkey,
+              tweet: tweet_pkey,
+            }
+          ).signers([alice]).rpc({ commitment: "confirmed" });
+        } catch (error) {
+          should_fail = "Failed";
+          assert.isTrue(error.message.includes("Account does not exist or has no data"));
+        }
+        assert.strictEqual(should_fail, "Failed");
+      });
   });
   describe("Alice changed her mind about the reactions!", async () => {
     it("Alice changed her mind about Bob`s second Tweet!", async () => {
@@ -346,7 +366,29 @@ describe("twitter", () => {
       assert.strictEqual(thisShouldFail, "Failed")
 
     });
+    // Alice cannot remove a comment that doesn't exist!
+    it("Alice cannot remove a comment that doesn't exist!", async () => {
+      const [tweet_pkey, tweet_bump] = getTweetAddress(topic_bob4, bob.publicKey, program.programId);
+      const [comment_pkey, comment_bump] = getCommentAddress(comment_alice2, alice.publicKey, tweet_pkey, program.programId);
+  
+      let should_fail = "This should fail";
+      try {
+        await program.methods.commentRemove().accounts(
+          {
+            commentAuthor: alice.publicKey,
+            comment: comment_pkey,
+          }
+        ).signers([alice]).rpc({ commitment: "confirmed" });
+      } catch (error) {
+        should_fail = "Failed";
+        assert.isTrue(error.message.includes("Account does not exist or has no data"));
+      }
+      assert.strictEqual(should_fail, "Failed");
+    });
+
   });
+
+  
 
 });
 
@@ -500,3 +542,4 @@ async function checkComment(
     assert.strictEqual(commentnData.bump.toString(), bump.toString())
   }
 }
+

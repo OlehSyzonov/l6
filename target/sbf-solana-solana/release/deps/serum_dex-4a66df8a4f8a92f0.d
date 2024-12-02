@@ -1,0 +1,13 @@
+/workspace/l6/target/sbf-solana-solana/release/deps/serum_dex-4a66df8a4f8a92f0.so: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/error.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/critbit.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/fees.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/instruction.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/matching.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/state.rs
+
+/workspace/l6/target/sbf-solana-solana/release/deps/libserum_dex-4a66df8a4f8a92f0.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/error.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/critbit.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/fees.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/instruction.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/matching.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/state.rs
+
+/workspace/l6/target/sbf-solana-solana/release/deps/serum_dex-4a66df8a4f8a92f0.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/error.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/critbit.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/fees.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/instruction.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/matching.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/state.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/error.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/critbit.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/fees.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/instruction.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/matching.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serum-0.4.7/src/state.rs:

@@ -1,0 +1,12 @@
+/workspace/l6/target/sbf-solana-solana/release/deps/libwithout_alloc-1440c1e31263ff68.rmeta: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/alloc.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/boxed.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/rc.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/uninit.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/fixed_vec.rs
+
+/workspace/l6/target/sbf-solana-solana/release/deps/libwithout_alloc-1440c1e31263ff68.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/alloc.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/boxed.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/rc.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/uninit.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/fixed_vec.rs
+
+/workspace/l6/target/sbf-solana-solana/release/deps/without_alloc-1440c1e31263ff68.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/alloc.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/boxed.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/rc.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/uninit.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/fixed_vec.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/alloc.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/boxed.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/rc.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/uninit.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/without-alloc-0.2.2/src/fixed_vec.rs:
